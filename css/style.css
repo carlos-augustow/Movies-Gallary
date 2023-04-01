@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    width: 6vh;
+}
+
+#lista-filmes{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.card{
+    width: 40vh;
+    margin-left: 7vh;
+    margin-bottom: 4vh;
+}
+
+
+.card img {
+    object-fit: cover;
+    max-width: 40vh;
+    height: 22rem;
+}
+
+#mostrar-filmes{
+    display: none;
+    height: 200px;
+    width: 300px;
+    background-color: blue;
+}
